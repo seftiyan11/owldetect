@@ -52,9 +52,17 @@ Content-Type: application/json
                     "end_idx": 1073
                 },
                 "ref": {
-                    "text": "Go visit the Prairies in June, when for scores on scores of miles you wade knee-deep among Tiger-lilies—what is the one charm wanting?—Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?",
+                    "text": "Go visit the Prairies in June, when for scores on scores of miles you wade knee-deep among Tiger-lilies—what is the one charm wanting—Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?",
                     "start_idx": 1368,
                     "end_idx": 1629
+                }
+            },
+            {
+                "input": {
+                    "text": "Hello, I'm a cat and dog!",
+                },
+                "ref": {
+                    "text": "Welcome to my world! Hello World! I'm a cat! But I eat pizza!",
                 }
             }
         ]
