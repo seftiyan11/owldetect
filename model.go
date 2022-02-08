@@ -54,10 +54,10 @@ type analyzeReqBody struct {
 
 func (rb analyzeReqBody) Validate() error {
 	if len(rb.InputText) == 0 {
-		return NewErrBadRequest("missing `input_text`")
+		return NewErrBadRequest("missing the `input_text`")
 	}
 	if len(rb.RefText) == 0 {
-		return NewErrBadRequest("missing `ref_text`")
+		return NewErrBadRequest("missing the `ref_text`")
 	}
 	if len(rb.InputText) > len(rb.RefText) {
 		return NewErrBadRequest("`ref_text` must be longer than `input_text`")
