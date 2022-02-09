@@ -30,9 +30,9 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    border: 2px dashed #316AF1;
+    border: 1px dashed #FF0000;
     border-radius: 20px;
-    background-color: #B8D4FF;
+    background-color: #4CAF50;
 }
 
 .text-div{
